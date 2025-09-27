@@ -46,3 +46,7 @@ def eda_preliminar (df):
         print(col.upper())
         print(df[col].value_counts())
         print('-'*10)
+
+    print ("-------------------------------")
+    print ("ESTADISTICAS NUMERICAS")
+    display(df.describe().T)
